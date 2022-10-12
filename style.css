@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: london;
+    src: url(fontes/Deutsch.ttf);
+    font-family: carlin ;
+    src: url(fontes/OldLondon.ttf);
+}
+main {
+    background-color: #fde0cb;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px #000;
+    width: 1000px;
+    padding: 15px;
+    margin: auto;
+}
+
+body {
+    background-image: linear-gradient(to right, #422114, rgb(36, 13, 4));
+    font-family: london;
+    font-size: 25px;
+}
+
+h1,h2 {
+    font-family: carlin;
+    color: #291803;
+    text-align: center;
+}
+
+.tito {
+    background-color: rgba(163, 151, 143, 0.945);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #000;
+}
+
+.titu {
+    background-color: #2e0606;
+    border-radius: 10px;
+    color: rgb(167, 123, 57);
+    box-shadow: 10px 10px 10px;
+}
+
+.pac {
+    background-color: #000;
+    border-radius: 10px;
+    color: #d40000;
+    box-shadow: 10px 10px 10px;
+}
